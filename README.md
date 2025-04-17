@@ -1,12 +1,24 @@
-# React + Vite
+# React Controlled Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Challenge:  
 
-Currently, two official plugins are available:
+- Create a form that takes in a person's details
+    - Name
+    - Title
+    - Date of Birth
+    - State
+    - Address
+- When this form is submitted it should cause another component called `Licence` to render
+- This component should look like a driver's licence, and include all the relevant details
+- The form should have basic validation and error handling
+- You can choose either controlled or uncontrolled
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+BONUS:  
 
-## Expanding the ESLint configuration
+- Include a picture on the driver's licence, there should be a default placeholder if no picture is added
+- You will have to research input type file
+- You may want to render a preview of the selected file
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+BONUS :  
+
+- The styling should be different for each state
