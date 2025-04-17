@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.license_card {
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(135deg, #FBAB7E 0%, #F7CE68 100%);
+    border-radius: 12px;
+    border: 2px solid rgb(255, 208, 0);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 25px;
+    gap: 15px;
+
+
+    & h2 {
+        font-size: 2em;
+    }
+}
